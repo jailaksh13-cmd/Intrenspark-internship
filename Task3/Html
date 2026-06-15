@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mini Design System</title>
+
+<style>
+:root{
+  --primary:#2563eb;
+  --secondary:#64748b;
+  --success:#16a34a;
+  --danger:#dc2626;
+  --bg:#f8fafc;
+  --white:#ffffff;
+  --text:#1e293b;
+
+  --space-xs:4px;
+  --space-sm:8px;
+  --space-md:16px;
+  --space-lg:24px;
+  --space-xl:32px;
+
+  --fs-sm:14px;
+  --fs-md:16px;
+  --fs-lg:24px;
+  --fs-xl:36px;
+
+  --radius:10px;
+}
+
+body{
+  font-family:Arial, sans-serif;
+  background:var(--bg);
+  color:var(--text);
+  padding:30px;
+}
+
+.section{
+  margin-bottom:40px;
+}
+
+.color{
+  width:120px;
+  height:80px;
+  border-radius:var(--
