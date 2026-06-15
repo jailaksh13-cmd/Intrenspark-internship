@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TaskFlow Landing Page</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f8f9fc;
+    color:#333;
+}
+
+header{
+    background:#4F46E5;
+    color:white;
+    padding:15px 50px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:24px;
+    font-weight:bold;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+}
+
+.hero{
+    text-align:center;
+    padding:80px 20px;
+    background:linear-gradient(to right,#4F46E5,#7C3AED);
+    color:white;
+}
+
+.hero h1{
+    font-size:48px;
+    margin-bottom:15px;
+}
+
+.hero p{
+    font-size:18px;
+    margin-bottom:20px;
+}
+
+.btn{
+    background:white;
+    color:#4F46E5;
+    padding:12px 25px;
+    text-decoration:none;
+    border-radius:5px;
+    font-weight:bold;
+}
+
+.features{
+    padding:60px 20px;
+    text-align:center;
+}
+
+.feature-box{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    width:250px;
+    border-radius:10px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+.testimonials{
+    background:#eef2ff;
+    padding:60px 20px;
+    text-align:center;
+}
+
+.testimonial{
+    max-width:600px;
+    margin:auto;
+    font-style:italic;
+}
+
+.cta{
+    text-align:center;
+    padding:60px 20px;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <div class="logo">TaskFlow</div>
+    <nav>
+        <a href="#">Features</a>
+        <a href="#">Reviews</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Manage Your Tasks Smarter</h1>
+    <p>Boost productivity with TaskFlow's powerful task management tools.</p>
+    <a href="#" class="btn">Get Started</a>
+</section>
+
+<section class="features">
+    <h2>Features</h2><br>
+    <div class="feature-box">
+        <div class="card">
+            <h3>Task Tracking</h3>
+            <p>Organize and track tasks efficiently.</p>
+        </div>
+        <div class="card">
+            <h3>Team Collaboration</h3>
+            <p>Work together with your team in real time.</p>
+        </div>
+        <div class="card">
+            <h3>Analytics</h3>
+            <p>Monitor productivity with smart insights.</p>
+        </div>
+    </div>
+</section>
+
+<section class="testimonials">
+    <h2>What Users Say</h2><br>
+    <div class="testimonial">
+        "TaskFlow increased our productivity by 40%. Highly recommended!"
+        <br><br><strong>- Sarah, Project Manager</strong>
+    </div>
+</section>
+
+<section class="cta">
+    <h2>Ready to Get Started?</h2><br>
+    <a href="#" class="btn">Start Free Trial</a>
+</section>
+
+<footer>
+    © 2026 TaskFlow. All Rights Reserved.
+</footer>
+
+</body>
+</html>
